@@ -11,7 +11,14 @@
   "type": "commonjs",
   "description": "Test Automation framework supporting UI and API testing capabilities using Cypress.",
   "devDependencies": {
+    "axe-core": "^4.11.4",
+    "cross-env": "^10.1.0",
     "cypress": "^15.14.2",
-    "cypress-xpath": "^2.0.1"
+    "cypress-axe": "^1.7.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-xpath": "^2.0.1",
+    "jest": "^30.3.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1"
   }
 }
