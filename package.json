@@ -1,0 +1,17 @@
+{
+  "name": "cypressjct",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "UST Training Cadets [April Batch]",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Test Automation framework supporting UI and API testing capabilities using Cypress.",
+  "devDependencies": {
+    "cypress": "^15.14.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
