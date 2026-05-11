@@ -1,0 +1,24 @@
+# Cypress folders to ignore
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+# Cypress environment files
+cypress.env.json
+# Node modules and build artifacts
+node_modules/
+dist/
+build/
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Coverage reports (if using coverage tools)
+coverage/
+nyc_output/
+# IDE-specific files
+idea/
+vscode/
+# OS-specific files
+DS_Store
+Thumbs.db
