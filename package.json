@@ -21,7 +21,6 @@
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": [
       "cypress/e2e/**/*.{js,ts}",
-      "cypress/e2e/*.{js,ts}",
       "cypress/support/step_definitions/**/*.{ts,js}"
     ]
   },
