@@ -1,18 +1,15 @@
-import {
-  Given,
-  When,
-  Then,
-  DataTable,
-} from "@badeball/cypress-cucumber-preprocessor";
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 Given(`I am on login page of application`, () => {
-  // [Given] Sets up the initial state of the system.
+  cy.visit("/");
 });
 
 When(`provide username and password`, () => {
-  // [When] Describes the action or event that triggers the scenario.
+  cy.get("#user-name").type("standard_user");
+  cy.get("#password").type("secret_sauce");
+  cy.get("#login-button").click();
 });
 
 Then(`Verify the user logged in sucessfully`, () => {
-  // [Then] Describes the expected outcome or result of the scenario.
+  cy.url().should("include", "inventory");
 });

@@ -24,6 +24,6 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern: "cypress/e2e/**/*.feature", //if this is not defined, default one will be: filename.cy.js
     supportFile: false,
-    baseUrl: "https://saucedemo.com/",
+    baseUrl: "https://saucedemo.com",
   },
 });
